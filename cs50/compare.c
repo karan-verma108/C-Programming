@@ -1,15 +1,23 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(void){
+int main(void)
+{
     int x = printf("Enter x ");
     scanf("%d", &x);
     int y = printf("Enter y ");
     scanf("%d", &y);
 
-    if(x > y){
+    if (x > y)
+    {
         printf("x is greater than y");
-    }else{
-        printf("y is greater than x");
+    }
+    else if (x < y)
+    {
+        printf("x is less than y");
+    }
+    else
+    {
+        printf("x is equl to y");
     }
 
     return 0;
