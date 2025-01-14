@@ -22,3 +22,26 @@ An interpreter is a software that does the same job as a compiler but the major 
 6) JIT (Just-in time) compiler 👍
 
 It has mixed features of both compiler and interpreter. It also translates code line by line. So when it translates one line of code and sends it for execution to the OS, it doesn't remain still, but rather starts to convert other lines of code and while the OS is busy executing the given code, JIT, in that period, the code is translated, saves it in a temporary memory called the buffer. So both OS and JIT keep on working parellely.
+
+#Contants in C 👍
+
+A constant is a value that after being assigned, can't be changed. Constants in C are of two types : a) primitive b) non-primitive
+
+A) Primitive Contants 👍
+
+These are the ones like ->
+
+i) integer constant :->{
+
+    For example, -3,0, 43 are the types of integer constants
+}
+
+ii) real constant :->{
+
+    For example, 4.2, 2.0, -1.5 are the examples of real constants
+}
+
+iii) character constant :->{
+
+    For example , 'd', '2', 'c' are the examples of character constants ('-2.5' is not a character constant becasue a character constant only consists of one character or 'Mumbai' is also not a character constant it's bacially a string constant of the type non-primitive contants.)
+}
